@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Tracking Application</title>
+</head>
+<body>
+    <h1> Hii I'm Kushal</h1>
+    <h1 id="message"></h1>
+    <!-- <form action="/api/data" method="post" id="myform">
+        <button type="submit" id="submitBtn" onsubmit="/api/data"> Submit</button>
+    </form> -->
+    <button type="submit" id="submitBtn" onsubmit="/api/data"> Submit</button>
+    <script>
+        document.getElementById('submitBtn').addEventListener('click',function(){
+        document.getElementById('submitBtn').style.display = 'none';
+
+        fetch('api/data')
+            .then(response=>response.json())
+            .then(data=>{
+                document.getElementById('message').textContent=data.message;
+            })
+            .catch(error=>console.error('Error:',error));
+        });
+
+    </script>
+</body>
+</html>

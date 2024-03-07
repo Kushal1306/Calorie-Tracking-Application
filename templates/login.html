@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to India</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Optional custom styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center h-screen">
+    <div class="w-full max-w-md p-8 bg-white shadow-md rounded-md">
+        <h1 class="text-2xl font-semibold text-center mb-8">Welcome to the Calorie Tracking APP</h1>
+        <form action="/login" method="post" id="myform">
+            <div class="mb-4">
+                <label for="username" class="block mb-2">Username</label>
+                <input type="text" name="username" id="username" class="w-full px-3 py-2 border rounded-md" required>
+            </div>
+            <div class="mb-6">
+                <label for="password" class="block mb-2">Password</label>
+                <input type="password" name="password" id="password" class="w-full px-3 py-2 border rounded-md" required>
+            </div>
+            <button type="submit" class="w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                Login
+            </button>
+        </form>
+        <br>
+        <form action="/register" method="post">
+            <p> Dont have an account? Register Yourselves</p>
+            <br>
+                 <button type="submit" class="w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"> Register</button>
+        </form>
+    </div>
+</body>
+</html>

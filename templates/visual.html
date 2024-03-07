@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Report Type</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="max-w-md mx-auto mt-4 p-4 bg-gray-100 rounded-lg shadow-lg text-center">
+        <form action="/generate_report" method="post">
+            <div class="mb-4">
+                <label for="report_type" class="block text-gray-700">Select Report Type:</label>
+                <select name="report_type" id="report_type" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <option value="daily">Daily Report</option>
+                    <option value="weekly">Weekly Report</option>
+                    <option value="monthly">Monthly Report</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="chart_type" class="block text-gray-700">Select Chart Type:</label>
+                <select name="chart_type" id="chart_type" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <option value="bar">Bar Chart</option>
+                    <option value="line">Line Plot</option>
+                </select>
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold text-sm py-2 px-2 rounded">Generate Report</button>
+        </form>
+        <h1 class="py-1"></h1>
+        <form action="/view_recommendations" method="post" class="mb-2">
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold text-sm py-2 px-2 rounded">View Personalised Recommendations Powered by GPT-3.5 </button>
+        </form>
+        <form action="/download_data" method="post" class="mb-0">
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold text-sm py-2 px-2 rounded">Download</button>
+        </form>
+    </div>
+    <br>
+  
+    <div class="max-w-md mx-auto">
+        <img src="{{image_src}}" id="plot_image" class="mt-4 w-full rounded-lg shadow-lg">
+    </div>
+    
+</body>
+</html>

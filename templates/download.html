@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="max-w-md mx-auto mt-4 p-4 bg-gray-100 rounded-lg shadow-lg text-center">
+        <form action="/generate_combined" method="post">
+            <div class="mb-4">
+                <label for="chart_type" class="block text-gray-700">Select Chart Type:</label>
+                <select name="chart_type" id="chart_type" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <option value="bar">Bar Chart</option>
+                    <option value="line">Line Plot</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="file_type" class="block text-gray-700">Select File Format:</label>
+                <select name="file_type" id="file_type" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                    <option value="pdf">PDF</option>
+                    <option value="png">PNG</option>
+                    
+                    <!-- Add more file format options here -->
+                </select>
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Download Charts & Data</button>
+        </form>
+    </div>
+    
+</body>
+</html>
