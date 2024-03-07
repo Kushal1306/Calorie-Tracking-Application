@@ -1,6 +1,7 @@
 # Calorie-Tracking-Application
 Task: Calorie Tracking app
 Tech Stack:
+<br>
 Backend: Used Flask to handle HTTP requests made by clients and to handle other data manipulation tasks. Various routes were created to handle requests.
 <br>
 Frontend:
