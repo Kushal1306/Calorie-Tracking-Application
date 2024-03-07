@@ -1,5 +1,6 @@
 # Calorie-Tracking-Application
 Task: Calorie Tracking app
+<br>
 Tech Stack:
 <br>
 Backend: Used Flask to handle HTTP requests made by clients and to handle other data manipulation tasks. Various routes were created to handle requests.
@@ -29,7 +30,7 @@ A view reports and summary page button is also available to view visualizations
 ![image](https://github.com/Kushal1306/Calorie-Tracking-Application/assets/95643826/21a296c7-b462-4858-acdf-b778fd5e536f)
 
  
-One can export their data in CSV format upon clicking the download data button
+> One can export their data in CSV format upon clicking the download data button
 Once a user clicks view summary and reports button he would be redirected to below page where he can choose report of type daily, weekly and monthly and he can also choose type of chart he wants (either bar chart or line plot)
 Daily report shows the visulaization of daily calorie intake of the last 7 days
 Weekly report shows the average weekly calorie intake
