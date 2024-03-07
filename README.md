@@ -1,12 +1,19 @@
 # Calorie-Tracking-Application
 Task: Calorie Tracking app
 Tech Stack:
-> Backend: Used Flask to handle HTTP requests made by clients and to handle other data manipulation tasks. Various routes were created to handle requests.
+Backend: Used Flask to handle HTTP requests made by clients and to handle other data manipulation tasks. Various routes were created to handle requests.
+<br>
 Frontend:
 HTML: Used HTML to create forms and other tags and tailwind css was used for styling.
+<br>
+
 Database: Postgresql was used for storing data (as a database)
 Used psycopg2 library to connect to database and to manipulate the data.
+<br>
+
 Visualization: Used matplot library to visualize the data and create charts like bar plot, line plot and to generate and save charts, subplots in image and pdf format
+<br>
+
 Large Language Model: Used Open AI’s GPT 3-5 model for an additional feature of recommendations based on data
 
 Intiial Login Page:
