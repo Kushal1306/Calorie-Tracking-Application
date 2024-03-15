@@ -40,8 +40,9 @@ Daily report shows the visulaization of daily calorie intake of the last 7 days
 Weekly report shows the average weekly calorie intake
 <br>
 Monthly report shows the visualization of average monthly intake
+<br>
 ![image](https://github.com/Kushal1306/Calorie-Tracking-Application/assets/95643826/6c24f9c9-dd5e-48ba-93ad-2a548aa83eca)
-
+<br>
  
 Below is daily report generated in bar chart format
  ![image](https://github.com/Kushal1306/Calorie-Tracking-Application/assets/95643826/775ce33f-aa82-43f3-b649-765edd40210a)
