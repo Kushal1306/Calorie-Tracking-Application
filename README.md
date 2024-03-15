@@ -27,6 +27,7 @@ ii) After Logging in:
 A user can update their calorie intake by filling up details like calorie amount, meal_type and date
 And recently updated data also can been seen on the page.
 A view reports and summary page button is also available to view visualizations
+<br>
 ![image](https://github.com/Kushal1306/Calorie-Tracking-Application/assets/95643826/21a296c7-b462-4858-acdf-b778fd5e536f)
 
  <br>
